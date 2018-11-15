@@ -14,13 +14,6 @@ Patch2:		giflib-4.2.1-automake-1.13.patch
 BuildRequires:	xmlto
 BuildRequires:	pkgconfig(x11)
 
-%track
-prog %name = {
-	url = http://sourceforge.net/projects/giflib/
-	regex = %name-(__VER__)\.tar\.bz2
-	version = %version
-}
-
 %description
 giflib is a library for reading and writing gif images. It is API and
 ABI compatible with libungif which was in wide use while the LZW
