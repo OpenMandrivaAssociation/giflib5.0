@@ -30,7 +30,7 @@ compression algorithm was patented.
 
 %prep
 %setup -q -n giflib-%{version}
-%apply_patches
+%autopatch -p1
 autoreconf -fi
 
 %build
