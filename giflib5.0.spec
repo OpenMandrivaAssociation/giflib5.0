@@ -8,7 +8,7 @@ Version:	5.0.4
 Release:	16
 Group:		System/Libraries
 License:	BSD like
-Url:		http://giflib.sourceforge.net/
+Url:		https://giflib.sourceforge.net/
 Source0:	http://switch.dl.sourceforge.net/project/giflib/giflib-5.x/giflib-%version.tar.bz2
 Patch2:		giflib-4.2.1-automake-1.13.patch
 BuildRequires:	xmlto
